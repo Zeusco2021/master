@@ -36,10 +36,12 @@ const App = () => {
       date: new Date(2021, 5, 12),
     },
   ];
-  //More unreadable code
-  // return React.createElement('div', {},
-  //      React.createElement('h2)', {}, "content inside tags");
-  //React.createElement(Expenses, {items: expenses})
+
+  const addExpenseHandler = (expense) => {
+    console.log(expense);
+    console.log("In App.js");
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -56,7 +58,7 @@ const App = () => {
         >
           Learn React by Omar Cervantes
         </a>
-        <NewExpense />
+        <NewExpense onAddExpense={addExpenseHandler} />
         <ExpenseItem
           title={expenses[0].title}
           amount={expenses[0].amount}
