@@ -1,0 +1,27 @@
+.expense-form__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.new-expense__actions {
+  text-align: right;
+}
+.new-expense__actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+}
+.expense-form__controls label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.new-expense__actions button:hover,
+.new-expense__actions button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
