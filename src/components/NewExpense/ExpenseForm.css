@@ -9,11 +9,11 @@
 .new-expense__actions button {
   font: inherit;
   cursor: pointer;
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.3rem;
   border: 1px solid #40005d;
   background-color: #40005d;
   color: white;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .expense-form__controls label {
   font-weight: bold;
