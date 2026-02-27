@@ -1,3 +1,13 @@
 .expenses {
   padding: 1rem;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+}
+.expenses h2 {
+  color: #40005d;
+  text-align: center;
+}
+.expenses-list {
+  list-style: none;
+  padding: 0;
 }

@@ -1,5 +1,8 @@
 .expenses-filter {
   margin-bottom: 1rem;
+  and .expenses-filter__control {
+    margin: 0.5rem 0;
+  }
 
   .expenses-filter__control {
     display: flex;

@@ -1,0 +1,25 @@
+.expenses-list {
+    list-style: none;
+    padding:0;
+    margin:0;   
+}
+
+.expnse-list__fallback{
+    color: #40005d;
+    text-align: center;
+}
+
+.expenses-list li{
+    margin: 1rem 0;
+}
+
+.expenses-list li h2{
+    font-size: 1.25rem; 
+    margin: 0 0 0.25rem 0;
+}
+
+.expenses-list li .expense-item__price{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #40005d;
+}   
