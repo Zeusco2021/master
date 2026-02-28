@@ -20,8 +20,9 @@ const NewExpense = (props) => {
     setIsEditing(true);
   };
 
-  const stopEditingHandler = () => {};
-  setIsEditing(false);
+  const stopEditingHandler = () => {
+    setIsEditing(false);
+  };
 
   return (
     <div className="new-expense">
